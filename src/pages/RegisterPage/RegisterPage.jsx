@@ -7,7 +7,7 @@ import { requestWithoutAuth } from "../../helpers/requests";
 import RegisterForm from "./RegisterForm";
 import surec from '../../assets/surec.png';
 import "./register.css";
-
+import telefonlar from '../../assets/telefonlar.jpg';
 const RegisterPage = () => {
   const [step, setStep] = useState(1);
   const [phone, setPhone] = useState("");
@@ -65,7 +65,7 @@ const RegisterPage = () => {
       {/* Right Side: Image & Content */}
       <Grid item xs={12} md={6} className="right-content">
         <div className="image-container">
-          <img src="src/assets/telefonlar.jpg" alt="Telefonlar" className="side-image phone-image" />
+          <img src={telefonlar} alt="Telefonlar" className="side-image phone-image" />
           <div className="text-box">
             <Typography variant="h6" gutterBottom>UYGULAMAMIZI İNDİRDİNİZ Mİ?</Typography>
             <Typography variant="body2" className="text-primary" gutterBottom>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, ListGroup } from "react-bootstrap";
 import BookSection from "../../components/BookSection"
+import kitap1 from '../../assets/kitap1.png'
 const CartPage = () => {
   const cartItems = [
     {
@@ -8,13 +9,13 @@ const CartPage = () => {
       subtitle: "(Doç. Dr. Oktay KAYMAK)",
       type: "Fiziksel Kitap",
       price: 600,
-      image: "src/assets/kitap1.png", // Replace with actual image path
+      image: kitap1, // Replace with actual image path
     },
     {
       title: "Patoloji Sorularla Son Tekrar Video Paketi",
       subtitle: "Video Paketi - 35 Video",
       price: 3999,
-      image: "src/assets/kitap1.png", // Replace with actual image path
+      image: kitap1, // Replace with actual image path
     },
   ];
 
@@ -25,7 +26,7 @@ const CartPage = () => {
       details: "Videolara Sınırsız Erişim",
       price: 3999,
       badge: "green",
-      image: "src/assets/kitap1.png", // Replace with actual image path
+      image: kitap1, // Replace with actual image path
     },
     {
       title: "Jinekoloji (E-Kitap)",
@@ -33,7 +34,7 @@ const CartPage = () => {
       details: "5000+ Soru",
       price: 599,
       badge: "blue",
-      image: "src/assets/kitap1.png", // Replace with actual image path
+      image: kitap1, // Replace with actual image path
     },
     {
       title: "Patoloji Sorularla Son Tekrar Kitap",
@@ -41,7 +42,7 @@ const CartPage = () => {
       details: "5000+ Soru",
       price: 599,
       badge: "blue",
-      image: "src/assets/kitap1.png", // Replace with actual image path
+      image: kitap1, // Replace with actual image path
     },
   ];
 

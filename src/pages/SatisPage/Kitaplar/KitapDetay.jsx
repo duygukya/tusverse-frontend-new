@@ -15,6 +15,7 @@ import BookIcon from "@mui/icons-material/Book";
 import questionIcon from "../../../assets/soruicon.png";
 import cargoIcon from "../../../assets/kargoicon.png";
 import "./bookdetail.css";
+import patoloji from '../../../assets/patoloji.png'
 import exdeneme from '../../../assets/exdeneme.png';
 const KitapDetay = () => {
   const { id } = useParams();
@@ -22,7 +23,7 @@ const KitapDetay = () => {
     id: id,
     title: "Patoloji Sorularla Son Tekrar Kitap",
     author: "Doç Dr. Emrullah Beyazyıldız",
-    image: "src/assets/patoloji.png",
+    image:patoloji,
     pages: 232,
     questions: 500,
     price: 50,

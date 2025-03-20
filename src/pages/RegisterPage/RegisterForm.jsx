@@ -6,9 +6,12 @@ import { useNavigate } from "react-router-dom";
 import { Alert, message } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../../redux/actions/authActions";
-import "./registerform.css"
-import siyahlogo from '../../assets/siyah_logo.png';
-import surec from '../../assets/surec.png'
+import "./registerform.css";
+
+import telefonlar from '../../assets/telefonlar.jpg'
+
+
+import surec from '../../assets/surec.png';
 const RegisterForm = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -207,7 +210,7 @@ const RegisterForm = () => {
       <Grid item xs={12} md={6} className="right-content">
         <div className="image-container">
           <img
-            src="src/assets/telefonlar.jpg"
+            src={telefonlar}
             alt="Telefonlar"
             className="side-image phone-image"
           />

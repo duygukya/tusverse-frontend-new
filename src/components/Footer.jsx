@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import Facebook from '../assets/facebook.png';
-import Instagram from '../assets/instagram.png';
-import Youtube from '../assets/youtube.png';
+import facebook from '../assets/facebook.png';
+import instagram from '../assets/instagram.png';
+import youtube from '../assets/youtube.png';
 import mail from '../assets/mail.png';
 import telefon from '../assets/telefon.png';
 import beyazlogo from '../assets/beyazlogo.png';
@@ -25,17 +25,17 @@ const Footer = () => {
            
             <div className="social-icons mt-3">
               <img
-                src={Facebook}
+                src={facebook}
                 alt="Facebook"
                 className="social-icon me-3"
               />
               <img
-                src={Instagram}
+                src={instagram}
                 alt="Instagram"
                 className="social-icon me-3"
               />
               <img
-                src={Youtube}
+                src={youtube}
                 alt="YouTube"
                 className="social-icon"
               />
